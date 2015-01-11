@@ -2,6 +2,11 @@
 Changelog for package zbar_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.3 (2015-01-11)
+------------------
+* remove stray tf in cmake
+* Contributors: Paul Bovbel
+
 0.0.2 (2015-01-10)
 ------------------
 * update dependencies

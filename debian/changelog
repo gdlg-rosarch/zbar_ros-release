@@ -1,0 +1,31 @@
+ros-hydro-zbar-ros (0.0.4-0quantal) quantal; urgency=high
+
+  * Style fixes
+  * Fix naming and debug messages
+  * Update node->nodelet wrapper
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Fri, 16 Jan 2015 05:00:00 -0000
+
+ros-hydro-zbar-ros (0.0.3-0quantal) quantal; urgency=high
+
+  * remove stray tf in cmake
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Sun, 11 Jan 2015 05:00:00 -0000
+
+ros-hydro-zbar-ros (0.0.2-0quantal) quantal; urgency=high
+
+  * update dependencies
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Sat, 10 Jan 2015 05:00:00 -0000
+
+ros-hydro-zbar-ros (0.0.1-0quantal) quantal; urgency=high
+
+  * Initial development of zbar_ros
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Sat, 10 Jan 2015 05:00:00 -0000
+
+

@@ -5,25 +5,24 @@ find_package(catkin REQUIRED COMPONENTS roscpp cv_bridge nodelet roslint)
 
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES zbar_ros
-  CATKIN_DEPENDS nodelet
+  LIBRARIES barcode_reader_nodelet
+  CATKIN_DEPENDS nodelet cv_bridge roscpp
 )
 
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
-  ${ZBAR_INCLUDE_DIRS}
 )
 
-add_library(zbar_ros src/zbar_ros_base.cpp src/barcode_reader_nodelet.cpp)
-target_link_libraries(zbar_ros zbar ${catkin_LIBRARIES})
+add_library(barcode_reader_nodelet src/barcode_reader_nodelet.cpp)
+target_link_libraries(barcode_reader_nodelet zbar ${catkin_LIBRARIES})
 
-add_executable(barcode_reader src/barcode_reader_node.cpp)
-target_link_libraries(barcode_reader zbar_ros ${catkin_LIBRARIES})
+add_executable(barcode_reader_node src/barcode_reader_node.cpp)
+target_link_libraries(barcode_reader_node ${catkin_LIBRARIES})
 
 roslint_cpp()
 
-install(TARGETS barcode_reader zbar_ros
+install(TARGETS barcode_reader_node barcode_reader_nodelet
 	RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 	LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 	ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION})

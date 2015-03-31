@@ -1,0 +1,39 @@
+ros-indigo-zbar-ros (0.0.5-0trusty) trusty; urgency=high
+
+  * Fix nodelets.xml installation
+  * Only create timer if throttling enabled
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Tue, 31 Mar 2015 04:00:00 -0000
+
+ros-indigo-zbar-ros (0.0.4-0trusty) trusty; urgency=high
+
+  * Style fixes
+  * Fix naming and debug messages
+  * Update node->nodelet wrapper
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Fri, 16 Jan 2015 05:00:00 -0000
+
+ros-indigo-zbar-ros (0.0.3-0trusty) trusty; urgency=high
+
+  * remove stray tf in cmake
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Sun, 11 Jan 2015 05:00:00 -0000
+
+ros-indigo-zbar-ros (0.0.2-0trusty) trusty; urgency=high
+
+  * update dependencies
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Sat, 10 Jan 2015 05:00:00 -0000
+
+ros-indigo-zbar-ros (0.0.1-0trusty) trusty; urgency=high
+
+  * Initial development of zbar_ros
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Sat, 10 Jan 2015 05:00:00 -0000
+
+

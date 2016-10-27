@@ -1,0 +1,12 @@
+Source: ros-jade-zbar-ros
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <pbovbel@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libzbar-dev, ros-jade-catkin, ros-jade-cv-bridge, ros-jade-nodelet, ros-jade-roscpp, ros-jade-roslint
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-zbar-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libzbar-dev, ros-jade-cv-bridge, ros-jade-nodelet, ros-jade-roscpp
+Description: Lightweight ROS wrapper for Zbar barcode/qrcode reader library (http://zbar.sourceforge .net/)

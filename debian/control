@@ -1,0 +1,12 @@
+Source: ros-lunar-zbar-ros
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Build-Depends: debhelper (>= 9.0.0), libzbar-dev, ros-lunar-catkin, ros-lunar-cv-bridge, ros-lunar-nodelet, ros-lunar-roscpp, ros-lunar-roslint
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-zbar-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libzbar-dev, ros-lunar-cv-bridge, ros-lunar-nodelet, ros-lunar-roscpp
+Description: Lightweight ROS wrapper for Zbar barcode/qrcode reader library (http://zbar.sourceforge .net/)

@@ -1,0 +1,53 @@
+ros-lunar-zbar-ros (0.1.0-0stretch) stretch; urgency=high
+
+  * Update maintainer
+  * Merge pull request #4 <https://github.com/ros-drivers/zbar_ros/issues/4> from mikaelarguedas/patch-1
+    update to use non deprecated pluginlib macro
+  * update to use non deprecated pluginlib macro
+  * Some fixes to work (#2 <https://github.com/ros-drivers/zbar_ros/issues/2>)
+    * fix wrong encoding
+    * fix memory leak
+  * Update README.md
+  * Contributors: Furushchev, Mikael Arguedas, Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Thu, 14 Dec 2017 05:00:00 -0000
+
+ros-lunar-zbar-ros (0.0.5-0stretch) stretch; urgency=high
+
+  * Fix nodelets.xml installation
+  * Only create timer if throttling enabled
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Tue, 31 Mar 2015 04:00:00 -0000
+
+ros-lunar-zbar-ros (0.0.4-0stretch) stretch; urgency=high
+
+  * Style fixes
+  * Fix naming and debug messages
+  * Update node->nodelet wrapper
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Fri, 16 Jan 2015 05:00:00 -0000
+
+ros-lunar-zbar-ros (0.0.3-0stretch) stretch; urgency=high
+
+  * remove stray tf in cmake
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Sun, 11 Jan 2015 05:00:00 -0000
+
+ros-lunar-zbar-ros (0.0.2-0stretch) stretch; urgency=high
+
+  * update dependencies
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Sat, 10 Jan 2015 05:00:00 -0000
+
+ros-lunar-zbar-ros (0.0.1-0stretch) stretch; urgency=high
+
+  * Initial development of zbar_ros
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Sat, 10 Jan 2015 05:00:00 -0000
+
+
